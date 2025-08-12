@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.upperbox{
+    height: 100px;
+    width: 400px;
+    position: relative;
+    top:-50px;
+    right:-1250px;
+    background-color: #43FC56;
+    border-radius: 60px;
+}
+.Circle1{
+    height:760px;
+    width: 760px;
+    border:25px solid #34763B;
+    border-radius: 50%;
+    position: relative;
+    bottom:-200px;
+    right:-980px;
+    
+}
+.innercircle1{
+    height: 800px;
+    width: 800px;
+    background-color: #43FC56;
+   border-radius :50%;    
+position: relative;
+top: 15px;
+right:0px;
+}
+.innercircle1:hover{
+    position: relative;
+    top:-15px;
+    right:25px;
+    border: 3px solid #34763B;
+    transition: 0.5s;
+}
+.freelancer{
+    height: 200px;
+    width:250px;
+    position:relative;
+    bottom:-100px;
+    right:-200px;
+}
+#client{
+    font-size: 45px;
+    color:white;
+    text-decoration: none;
+}
+#client:hover{
+    color:black
+}
+.slogan{
+    height: 405px;
+    width: 268px;
+    position: relative;
+    top:-692px;
+    left:608px;
+    display: flex;
+    flex-direction: column;
+}
+.hire{
+    height: 112px;
+    width:170px;
+    font-size: 5rem;
+}
+.create{
+    margin: 20px 0;
+    height: 112px;
+    width:235px;
+    font-size: 5rem;
+}
+.deliver{
+    height: 112px;
+    width:260px;
+    font-size: 5rem;
+}
+.downbox{
+    height: 100px;
+    width: 400px;
+    position: relative;
+    bottom:589px;
+    left:-150px;
+    background-color:#C393F3;
+    border-radius: 60px;
+}
+.Circle2{
+    height:760px;
+    width: 760px;
+   border-radius: 50%;
+    border: 25px solid #A24DF7E8;
+    position: relative;
+    top:-1606px;
+    left:-250px;
+}
+    
+.innercircle2{
+    height: 800px;
+    width:800px;
+    background-color:#C393F3;
+    border-radius: 50%;
+    position: relative;
+    top:-106px;
+    left:-103px;
+    
+}
+.innercircle2:hover{
+    position: relative;
+    top:-75px;
+    left:-68px;
+    border: 2px solid #A24DF7E8;
+    transition: 0.5s;
+}
+.client{
+    height:300px;
+    width:250px ;
+    position: relative;
+    top:420px;
+    right:-450px;
+
+}
+#free{
+    font-size: 48px;
+    color:white;
+    text-decoration: none;
+}
+#free:hover{
+    color: black;
+}

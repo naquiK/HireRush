@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/styleSignup.css">
+</head>
+<body>
+   <div id="wrapper">
+    <div class="container">
+        <div class="left">
+            <div class="slogon_div">
+                <h1 class="slogon slogan"></h1>
+            </div>
+            <div class="img_div">
+                <img src="./asset/image2.png" alt="Error" class="image">
+                
+                <div class="curve">
+                </div>
+            </div> 
+                  
+
+        </div>
+        <div class="right">
+            <form action="/signupFreelancer" method="post" onsubmit="return validateForm()" name="registerForm"> 
+                <div class="heading">
+                    <h1>Create Account</h1>
+                    <p class="freelancer">As a Freelancer</p>
+                    <p class="login" >Already have an account ? <a href="./login" class="link" >Login</a> </p>
+                </div>
+              
+                
+                <div >
+                    
+                </div>
+                <div class="platform">
+                    <div class="google">
+                        <a href="#" >Continue With Google</a>
+                    </div>
+                    
+                    <a href="#" class="apple">Continue With Apple</a>
+                </div>
+                <div class="dot">
+                    <div class="dot_left"></div>
+                   <div> <h4 class="center_dot">Or</h4></div>
+                    <div class="dot_right"></div>
+                </div>
+                <div class="name">
+                     <div class="inputField_FN">
+                    <input type="text" required name="first_Name" id="first_Name" />
+                    <label for="first_Name" id="first_Name_lable">First Name</label>
+
+                </div>
+                <div class="inputField_LN">
+                    <input type="text" required name="last_Name" id="last_Name">
+                    <label for="last_Name" id="last_Name_lable">Last Name</label>
+
+                </div>
+                </div>
+                
+                <div class="inputField_Email">
+                    <input type="email" required name="email" id="email">
+                    <label for="email" id="email_Label">Email</label>
+
+                </div>
+                <div class="inputField_Password">
+                    <input type="password" required name="password" id="password">
+                    <label for="password" id="password_Label">Password</label>
+
+                </div>
+
+                
+                <div class="btn_div">
+                       
+                    <button class="btn_login btn btn-white btn-animate" value="signupFreelancer">Create Account</button>
+                </div>
+            </form>
+                </div>
+                
+              
+                
+                
+            
+           
+        </div>
+    </div>
+
+   
+    <script src="./js/main.js"> </script>
+</body>
+</html>
